@@ -1,0 +1,18 @@
+---
+import Platos from "./Platos.astro";
+---
+
+<div class="flex flex-grow w-full mt-0 mb-16 justify-center items-center pt-12">
+  <div
+    class="felx flex-col md:flex-row md:space-x-6 space-y-6 ring-1 ring-gray-300/10 bg-[#5B3017]/65 w-full max-w-4xl p-8 rounded-xl shadow-xl text-white"
+  >
+    <div class="flex flex-col space-y-8">
+      <div>
+        <h1 class="text-center text-2xl font-bold py-6 tracking-widest">ENTRADAS</h1>
+      </div>
+      <div class="flex flex-col-2 gap-8 justify-center">
+        <Platos/>
+      </div>
+    </div>
+  </div>
+</div>
